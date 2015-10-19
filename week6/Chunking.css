@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* Michael Murray's CSS Document. 
+Green: #047A3E
+Teal Green: #529975
+Tan: #D6B865
+Gold: #e8911f
+Darker Gold: #70460F
+Gray: #8C8B8A
+*/
+
+body {
+	
+	width: 761px;
+	height: auto;
+	margin: auto;
+	margin-bottom:50px;
+	border-color:#e8911f;
+	border-style:solid;
+	border-width: 10px;
+	padding: auto;
+	background-color: #529975;
+
+}
+
+html {
+	background-color: #047A3E;
+	background-image:url(College%20Archive/Fall%20Semester%202013/CAS%20204/Week%205/final/78c12a01d7aeae34656a6a5d2f700a17.png);
+
+}
+
+h1 {
+	text-align: center;
+	background-color: #666565;
+	color: #e8911f;
+	
+}
+
+h2 {
+	padding: 7px;
+	background-color: #666565;
+	color: #e8911f;
+}
+
+h3 {
+	color: #70460F;
+	
+	
+}
+
+img {
+	border-color: #D6B865;
+	/* [disabled]border-style: solid; */
+	/* [disabled]border-width: 5px; */
+}
+
+#self {
+	float:right;
+	border-color: #D6B865;
+	border-style: solid;
+	border-width: 5px;
+	height: auto;
+	margin: auto;
+}
+
+a {
+  color: #70460F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+	color: #e8911f
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:visited {
+	color:#CC9;
+}
+
+a:active{
+	background-color: #e8911f;
+	
+}
+
+#nav {
+	text-align:center;
+	padding:5px;
+	list-style: none;
+	background-color: #047A3E;
+	width: 750px; 
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	padding-right: 50px;
+	padding-left: 50px;
+	border-left: double;
+	border-width: 4px;
+	border-color: #000000;
+}
+
+#nav li:first-child a {
+	border-left: none;
+}
+
+#nav a:hover{
+	
+}
+
+#footer{
+	width:auto;
+	text-align:left;
+	background-color: #8C8B8A;
+	height: auto;
+	margin-top:55px;
+	margin-right:auto;
+	margin-left:auto;
+	
+	}
+#approval {
+	float:right;
+	
+	}
